@@ -1,0 +1,18 @@
+<p id="notice"><%= notice %></p>
+
+<div class="jumbotron">
+  <h1 class="text-center">Tasks</h1>
+  <p class="text-center"><%= link_to 'New Task', new_task_path %>
+</div>
+
+<div class="container">
+  <ul class="list-group">
+    <% @tasks.each do |task| %>
+      <% if task.important %>
+        <li class="list-group-item list-group-item-danger"><%= task.task %> | <%= task.date %> | <%= link_to 'Edit', edit_task_path(task) %> | <%= button_to 'Destroy', task, method: :delete, data: { confirm: 'Are you sure?' } %></li>
+      <% else %>
+          <li class="list-group-item"><%= task.task %> | <%= task.date %> | <%= link_to 'Edit', edit_task_path(task) %> | <%= button_to 'Destroy', task, method: :delete, data: { confirm: 'Are you sure?' } %></li>
+      <% end %>
+    <% end %>
+  </ul>
+</div>
