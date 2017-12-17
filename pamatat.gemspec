@@ -9,13 +9,13 @@ Gem::Specification.new do |s|
   s.version     = Pamatat::VERSION
   s.authors     = ["Drew-Mace"]
   s.email       = ["dremac1@live.com"]
-  s.homepage    = "https://rubygems.org/gems/pamatat"
+  s.homepage    = "https://github.com/Drew-Mace/pamatat/blob/master/README.md"
   s.summary     = "Pamatat is a ruby engine that will save developers time creating a simple to-do list."
   s.license     = "MIT"
 
   s.files = Dir["{app,config,db,lib}/**/*", "MIT-LICENSE", "Rakefile", "README.md"]
 
-  s.add_dependency "rails", "~> 5.1.4"
+  s.add_dependency "rails", "~> 5.1"
 
   s.add_development_dependency "sqlite3"
 end
