@@ -49,6 +49,7 @@ bin/rails db:migrate
 - [] Once a task is marked "complete" the text will have a line through it or color change.
 - [] Marking a task as "important" or "complete" should be able to be done with a single click.
 - [] Edit `_form.html.erb` to use bootstrap styling so its more visually pleasing.
+- [] Add functionality to enable user to pick a due date, with a count-down timer. As timer gets closer to 0 it will do something(i.e. ?Flash, change colors?)
 
 ## License
 The gem is available as open source under the terms of the [MIT License](http://opensource.org/licenses/MIT).
