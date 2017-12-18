@@ -13,8 +13,11 @@ Please note we have a code of conduct, please follow it in all your interactions
    variables, exposed ports, useful file locations and container parameters.
 3. Increase the version numbers in any examples files and the README.md to the new version that this
    Pull Request would represent.
+4. Add your name below!
+
 ## People who rock!
   * {YOUR_NAME_HERE}
+
 ## Code of Conduct
 
 ### Our Pledge
