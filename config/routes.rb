@@ -1,3 +1,3 @@
-Pamatat::Engine.routes.draw do
+Pamatat::Engine.routes do
   resources :tasks
 end
